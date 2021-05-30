@@ -280,6 +280,12 @@ variable "hostname" {
   default     = null
 }
 
+variable "network_mode" {
+  type        = string
+  description = "Network operation mode (awsvpc, bridge, host)"
+  default     = "awsvpc"
+}
+
 variable "disable_networking" {
   type        = bool
   description = "When this parameter is true, networking is disabled within the container."
