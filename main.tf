@@ -92,6 +92,7 @@ locals {
     systemControls         = var.system_controls
     extraHosts             = var.extra_hosts
     hostname               = var.hostname
+    networkMode            = var.network_mode
     disableNetworking      = var.disable_networking
     interactive            = var.interactive
     pseudoTerminal         = var.pseudo_terminal
